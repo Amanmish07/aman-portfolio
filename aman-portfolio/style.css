@@ -1,0 +1,92 @@
+body {
+    background: #0a0a0a;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+nav {
+    background: #111;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: cyan;
+}
+
+.menu a {
+    color: cyan;
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: cyan;
+    color: black;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    padding: 40px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.profile {
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid cyan;
+}
+
+.box {
+    background: #111;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid #222;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px cyan;
+}
+
+.card {
+    background: #111;
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px cyan;
+}
+
+.hidden {
+    display: none;
+    background: #111;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.resumeImg {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
